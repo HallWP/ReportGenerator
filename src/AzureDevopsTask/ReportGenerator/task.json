@@ -142,9 +142,9 @@
             "name": "publishCodeCoverageResults",
             "type": "boolean",
             "label": "Publish code coverage results",
-            "defaultValue": false,
+            "defaultValue": true,
             "required": false,
-            "helpMarkDown": "Directly publish report in 'Code Coverage' tab. Makes the 'PublishCodeCoverageResults' task obsolete."
+            "helpMarkDown": "Defaults to true. Directly publish report in 'Code Coverage' tab. Makes the 'PublishCodeCoverageResults' task obsolete."
         },
         {
             "name": "license",
